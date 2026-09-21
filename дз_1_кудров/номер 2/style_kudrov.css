@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    background: azure;
+    color: #222;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #55498b;
+}
+
+.riddle,
+.answer {
+    max-width: 700px;
+    margin: 20px auto;
+    background: #fff;
+    border: 2px solid #55498b;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.riddle p,
+.answer p {
+    margin-bottom: 15px;
+}
+
+.answer {
+    text-align: center;
+}
+
+.answer img {
+    display: block;
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin: 15px auto;
+    border-radius: 8px;
+}
+
+form {
+    margin-top: 10px;
+}
+
+.riddle form,
+.answer form {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    font-family: inherit;
+    font-size: 18px;
+    padding: 10px 20px;
+    background: #55498b;
+    color: #fff;
+    border: 1px solid #55498b;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+}
+
+.btn:hover {
+    background: #d81717;
+    border-color: #d81717;
+}
+
+.back {
+    font-family: inherit;
+    font-size: 16px;
+    padding: 8px 16px;
+    background: transparent;
+    color: #55498b;
+    border: 1px solid #55498b;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+}
+
+.back:hover {
+    background: #55498b;
+    color: #fff;
+}
