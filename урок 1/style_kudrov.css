@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    background-color: rgb(166, 148, 245);
+}
+
+.element {
+    width: 450px;
+    height: 350px;
+    margin: 20px auto;
+    background: #fff url('pic.jpg') no-repeat;
+    background-size: 150px 100px;
+}
+
+.element2 {
+    border: 20px solid rgba(4, 99, 143, 0.959);
+    padding: 20px;
+    background-size: 300px;
+    background-origin: border-box;
+    background-clip: content-box;
+}
