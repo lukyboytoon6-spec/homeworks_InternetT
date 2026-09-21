@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    background: azure;
+    color: #222;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #55498b;
+}
+
+h2 {
+    color: #55498b;
+    margin: 10px 0 10px;
+    border-bottom: 2px solid #55498b;
+}
+
+.toc {
+    background: #fff;
+    border: 2px solid #55498b;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 700px;
+    margin: 0 auto 30px;
+}
+
+.toc form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.toc button {
+    font-family: inherit;
+    font-size: 18px;
+    text-align: left;
+    padding: 10px 15px;
+    background: #f0f0fa;
+    color: #d81717;
+    border: 1px solid #55498b;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+}
+
+.toc button:hover {
+    background: #55498b;
+    color: #fff;
+}
+
+.article {
+    max-width: 800px;
+    margin: 0 auto 40px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.article img {
+    display: block;
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin: 15px 0;
+    border-radius: 8px;
+}
+
+.back {
+    font-family: inherit;
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 6px 12px;
+    background: transparent;
+    color: #55498b;
+    border: 1px solid #55498b;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+}
+
+.back:hover {
+    background: #55498b;
+    color: #fff;
+}
